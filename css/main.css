@@ -12,6 +12,9 @@
 .mouse{
     cursor: pointer;
 }
+html{
+    background-color: #06151f;
+}
 header .header-box{
     height: 50px;
     background-color: black;

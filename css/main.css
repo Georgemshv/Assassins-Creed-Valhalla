@@ -15,4 +15,17 @@
 header .header-box{
     height: 50px;
     background-color: black;
+    padding: 0px 60px;
+}
+/*icons style*/
+.ubisoft-image img , .user img{
+    height: 40px;
+}
+.first-navigation-list:not(:first-child){
+    margin-left: 30px;
+}
+.first-navigation-list a{
+    font-size: 16px;
+    font-weight:normal;
+    color: white;
 }

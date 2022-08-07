@@ -24,8 +24,19 @@ header .header-box{
 .first-navigation-list:not(:first-child){
     margin-left: 30px;
 }
+.first-navigation-list:hover a{
+    color: #40c1a6;
+}
 .first-navigation-list a{
     font-size: 16px;
     font-weight:normal;
     color: white;
+    transition: all 0.3s;
+}
+/*2*/
+.navigation-2-container{
+    height: 70px;
+    background-image: url("../image/banner.png");
+    background-size: 100% 70px;
+    filter: drop-shadow(0 10px 10px rgba(0,0,0,.85));
 }

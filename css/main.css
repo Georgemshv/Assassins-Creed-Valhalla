@@ -21,13 +21,13 @@ header .header-box{
 .ubisoft-image img , .user img{
     height: 40px;
 }
-.first-navigation-list:not(:first-child){
+.first-navigation-list:not(:first-child) , .nav_list_2:not(:first-child){
     margin-left: 30px;
 }
 .first-navigation-list:hover a{
     color: #40c1a6;
 }
-.first-navigation-list a{
+.first-navigation-list a , .nav_list_2 a{
     font-size: 16px;
     font-weight:normal;
     color: white;
@@ -39,4 +39,16 @@ header .header-box{
     background-image: url("../image/banner.png");
     background-size: 100% 70px;
     filter: drop-shadow(0 10px 10px rgba(0,0,0,.85));
+    padding-left: 40px;
+}
+.img-wrapper img{
+    height: 45px;
+    margin-right: 40px;
+}
+.right-cont button{
+    background:none;
+    font-size: 20px;
+    color: white;
+    width: 170px;
+    height: 70px;
 }

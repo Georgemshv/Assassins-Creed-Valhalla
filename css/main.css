@@ -1,0 +1,18 @@
+/*main classes*/
+.Flex{
+    display: flex;
+}
+.j-b{
+    justify-content: space-between;
+}
+.a-c{
+    align-items: center;
+}
+/*cursor pointer for button*/
+.mouse{
+    cursor: pointer;
+}
+header .header-box{
+    height: 50px;
+    background-color: black;
+}
